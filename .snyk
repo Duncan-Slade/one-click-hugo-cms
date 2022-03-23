@@ -12,6 +12,16 @@ patch:
         patched: '2022-03-23T20:17:34.792Z'
     - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
         patched: '2022-03-23T20:17:34.792Z'
+    - gulp > gulp-cli > liftoff > extend:
+        patched: '2022-03-23T20:23:20.802Z'
+    - gulp > vinyl-fs > glob-stream > extend:
+        patched: '2022-03-23T20:23:20.802Z'
+    - netlify-cms > netlify-cms-app > netlify-cms-widget-markdown > unified > extend:
+        patched: '2022-03-23T20:23:20.802Z'
+    - netlify-cms > netlify-cms-app > netlify-cms-core > react-markdown > unified > extend:
+        patched: '2022-03-23T20:23:20.802Z'
+    - netlify-cms > netlify-cms-app > netlify-cms-widget-markdown > rehype-remark > hast-util-to-mdast > extend:
+        patched: '2022-03-23T20:23:20.802Z'
   'npm:hoek:20180212':
     - netlify-cms > fsevents > node-pre-gyp > hawk > hoek:
         patched: '2022-03-23T20:17:34.792Z'
@@ -438,6 +448,10 @@ patch:
         patched: '2022-03-23T20:17:34.792Z'
     - gulp-babel > babel-core > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
         patched: '2022-03-23T20:17:34.792Z'
+    - netlify-cms > netlify-cms-app > netlify-cms-widget-markdown > slate > lodash:
+        patched: '2022-03-23T20:23:20.802Z'
+    - netlify-cms > netlify-cms-app > netlify-cms-core > redux-notifications > react-redux > lodash:
+        patched: '2022-03-23T20:23:20.802Z'
   'npm:minimatch:20160620':
     - gulp > vinyl-fs > glob-stream > minimatch:
         patched: '2022-03-23T20:17:34.792Z'
